@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Skillsbox from '@/components/skills'
 import styled from 'styled-components'
-
+import Projectbox from '@/components/projects'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -18,12 +18,76 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
+    <div className={styles.row}>
+      <div className={styles.column}>
+    <Projectbox src="yugioh demo.png"
+    heading="Role: Graphic desginer "
+    text='This was a solo project where I created digital illustrations of two 
+    yu-gi-oh characters. I used autodesk sketchbook to create them and a majority of the graphical assets, like the card backs.'
+    date="November 2022 to December 2022"
+    me="-20px" 
+    bg="#FFFFFF"
+    />
+    <Projectbox src="Tactical Pigeons.png"
+    heading="Role: Graphic desginer "
+    text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
+    date="January 2022 to April 2022"
+    me="-20px" 
+    bg="#FFFFFF"
+    />
+</div>
+<div className={styles.column}>
+
+<Projectbox src="yugioh demo.png"
+    heading="Role: Graphic desginer "
+    text='This was a solo project where I created digital illustrations of two 
+    yu-gi-oh characters. I used autodesk sketchbook to create them and a majority of the graphical assets, like the card backs.'
+    date="November 2022 to December 2022"
+    me="-20px" 
+    bg="#FFFFFF"
+    />
+    <Projectbox src="Tactical Pigeons.png"
+    heading="Role: Graphic desginer "
+    text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
+    date="January 2022 to April 2022"
+    me="-20px" 
+    bg="#FFFFFF"
+    />
+
+
+
+
+</div>
+    </div>
+
+
+
+
+
+
+
+      <div className={styles.purpleheader}>Skills</div>
+      <spacer></spacer>
+      <hr/>
         <div className={styles.row}>
-        <Skillsbox src="Photoshop.png" text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' me="80px" bg="#31A8FF"
+          
+        <Skillsbox src="Photoshop.png" 
+        heading="Photoshop"
+        text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' 
+        me="80px" 
+        bg="#31A8FF"
         />
-        <Skillsbox src="Illustrator.png" text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' me="10px" bg="#FF9A00"
+        <Skillsbox src="Illustrator.png" 
+        heading="Illustrator"
+        text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' 
+        me="90px" 
+        bg="#FF9A00"
         />
-        <Skillsbox src="Indesign.png" text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' me="10px" bg="#FF3366"
+        <Skillsbox src="Indesign.png" 
+        heading="Indesign"
+        text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.'
+         me="10px" 
+         bg="#FF3366"
         />
         </div>
 
@@ -33,3 +97,6 @@ export default function Home() {
 }
 
 
+const spacer = styled.div `
+height: 200px
+`

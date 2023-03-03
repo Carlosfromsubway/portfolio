@@ -1,7 +1,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -12,4 +11,18 @@
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.purpleheader {
+  font-size: 48px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  color: rgb(174, 95, 249);
+  margin-top: 70px;
+}
+
+.column {
+  display:flex;
+  flex-direction: column;
 }

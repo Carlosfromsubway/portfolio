@@ -1,9 +1,10 @@
 import styled from "styled-components"
 
-export default function Skillsbox ({
+export default function Projectbox({
     src="",
     text="",
     heading="",
+    date="",
     me="",
     bg=""
 
@@ -19,12 +20,13 @@ export default function Skillsbox ({
         > <img
         
         src={src}
-        width={70}
-        height={70}
+        width={545}
+        height={320}
         marR={me}
       />
       <Head>{heading}</Head>
       <Typography>{text}</Typography>
+      <Typography>{date}</Typography>
        
       </Card>
 
@@ -33,37 +35,30 @@ export default function Skillsbox ({
     }
 
 const Card = styled.div `
-width: 380px;
-height: 320px;
+width: 550px;
+height: 600px;
 display: flex;
 flex-direction:column;
 color: #FFFFFF;
 box-shadow: 10px 14px #888888;
-border-radius: 8px;
-align-content: center;
-padding: 10px;
-justify-items:center;
+border: 3px solid black;
 margin-bottom:30px;
-margin-right:${props=>props.marR};
 background-color:${props=>props.bog};
 
 `
 const Typography = styled.div `
-font-size: 24px;
-color: #F2F2F2;
-justify-content: center;
+font-size: 22px;
+color: black;
 margin-top: 10px;
 padding: 10px;
-text-align:center;
 margin-right:${props=>props.marR};
 `
 const Head = styled.div `
-font-size: 34px;
-font-weight: bold;
-color: #F2F2F2;
+font-size: 30px;
+font-weight: 300;
+color: black;
 justify-content: center;
 margin-top: 10px;
 padding: 10px;
-text-align:center;
 margin-right:${props=>props.marR};
 `
