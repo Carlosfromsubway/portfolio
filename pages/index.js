@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Skillsbox from '@/components/skills'
+import styled from 'styled-components'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,18 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
+        <div className={styles.row}>
+        <Skillsbox src="Photoshop.png" text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' me="80px" bg="#31A8FF"
+        />
+        <Skillsbox src="Illustrator.png" text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' me="10px" bg="#FF9A00"
+        />
+        <Skillsbox src="Indesign.png" text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' me="10px" bg="#FF3366"
+        />
+        </div>
+
       </main>
     </>
   )
 }
+
+
