@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-
+      <div className={styles.purpleheader}>Projects</div>
     <div className={styles.row}>
       <div className={styles.column}>
     <Projectbox src="yugioh demo.png"
@@ -38,35 +38,45 @@ export default function Home() {
 </div>
 <div className={styles.column}>
 
-<Projectbox src="yugioh demo.png"
-    heading="Role: Graphic desginer "
-    text='This was a solo project where I created digital illustrations of two 
-    yu-gi-oh characters. I used autodesk sketchbook to create them and a majority of the graphical assets, like the card backs.'
-    date="November 2022 to December 2022"
+<Projectbox src="trackstacks.png"
+    heading="Role: UI/UX designer  "
+    text='An expo app that aims to assist those with ADHD properly stay on task and help them time manage. In this project I performed user research and testing. I worked along side 3 other designers to create page layouts and structures for the app.'
+    date="September 2022 to December 2022"
     me="-20px" 
     bg="#FFFFFF"
     />
-    <Projectbox src="Tactical Pigeons.png"
-    heading="Role: Graphic desginer "
-    text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
+    <Projectbox src="Elevate.png"
+    heading="Role: UI/UX designer "
+    text='Elevate is a Figma mockup of a music streaming app, simalair to apple music and spottily. I developed the layout of the main page, sign in page and purchasing pages. I referenced the previously mentioned apps to give a familiar and effective design..'
     date="January 2022 to April 2022"
     me="-20px" 
     bg="#FFFFFF"
     />
-
-
-
-
 </div>
+
     </div>
+      <div className={styles.purpleheader}>Graphics</div>
+      <spacer></spacer>
+      <hr/>
+        <div className={styles.row}>
+          <Image
+          src="/Discovering china.png"
+          width={400}
+          height={300}
+          />
+                    <Image
+          src="/Noctis edit.png"
+          width={400}
+          height={300}
+          />
+                    <Image
+          src="/End of us photoshop.jpg"
+          width={400}
+          height={300}
+          />
 
-
-
-
-
-
-
-      <div className={styles.purpleheader}>Skills</div>
+        </div>
+        <div className={styles.purpleheader}>Skills</div>
       <spacer></spacer>
       <hr/>
         <div className={styles.row}>
@@ -90,7 +100,6 @@ export default function Home() {
          bg="#FF3366"
         />
         </div>
-
       </main>
     </>
   )
