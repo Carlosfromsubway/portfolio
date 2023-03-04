@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
-export default function Projectbox({
+export default function Contactsbox ({
     src="",
     text="",
     heading="",
-    date="",
+    me="",
     bg=""
 
 }) {
@@ -16,16 +16,16 @@ export default function Projectbox({
         <div> 
         <Card
         bog={bg}
+        marR={me}
         > <img
         
         src={src}
-        width={619}
-        height={320}
-
+        width={100}
+        height={90}
+      
       />
       <Head>{heading}</Head>
       <Typography>{text}</Typography>
-      <Typography>{date}</Typography>
        
       </Card>
 
@@ -34,30 +34,38 @@ export default function Projectbox({
     }
 
 const Card = styled.div `
-width: 620px;
-height: 600px;
+width: 380px;
+text-align: center;
+height: 320px;
 display: flex;
 flex-direction:column;
 color: #FFFFFF;
-box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
-border: 3px solid black;
+box-shadow: 10px 14px #888888;
+border-radius: 8px;
+align-items: center;
+padding-top: 30px;
+justify-items:center;
 margin-bottom:30px;
-background-color:${props=>props.bog};
+margin-right:${props=>props.marR};
+background:${props=>props.bog};
 
 `
 const Typography = styled.div `
-font-size: 20px;
-color: black;
-margin-top: 10px;
-padding: 10px;
-
-`
-const Head = styled.div `
-font-size: 30px;
-font-weight: 300;
-color: black;
+font-size: 21px;
+color: #F2F2F2;
 justify-content: center;
 margin-top: 10px;
 padding: 10px;
+text-align:center;
+
+`
+const Head = styled.div `
+font-size: 34px;
+font-weight: bold;
+color: #F2F2F2;
+justify-content: center;
+margin-top: 10px;
+padding: 10px;
+text-align:center;
 
 `

@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Skillsbox from '@/components/skills'
 import styled from 'styled-components'
 import Projectbox from '@/components/projects'
+import Contactsbox from '@/components/contacts'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,26 +18,54 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-      <div className={styles.purpleheader}>Projects</div>
+      
+<div className={styles.colorrow}>
+    <div className={styles.headercontentcolumn}>
+    <h1 className={styles.headerfont}>Tyler Lee</h1>
+    <h1 className={styles.headerfont}>I can be your graphic designer</h1>
+    <p className={styles.contentfont}>
+    Hi there, I'm a Digital, Design, and Development student who specializes in graphic design. 
+    My main areas of expertise are in Photoshop, Illustrator, Indesign, and utilizing Autodesk sketchbook. 
+    I have experience in working with teams to create visually appealing products that have been user tested towards a specific market.
+    </p>
+    </div>
+
+    <div className={styles.piccolumn}>
+    <Image
+    src="/thumbnail wordpress v2.png"
+    width={1100}
+    height={650}
+    
+    />
+
+
+
+    </div>
+
+
+</div>
+
+
+<div className={styles.purpleheader}>Projects</div>
     <div className={styles.row}>
-      <div className={styles.column}>
+      <div className={styles.leftycolumn}>
     <Projectbox src="yugioh demo.png"
     heading="Role: Graphic desginer "
     text='This was a solo project where I created digital illustrations of two 
     yu-gi-oh characters. I used autodesk sketchbook to create them and a majority of the graphical assets, like the card backs.'
     date="November 2022 to December 2022"
-    me="-20px" 
+
     bg="#FFFFFF"
     />
     <Projectbox src="Tactical Pigeons.png"
     heading="Role: Graphic desginer "
     text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
     date="January 2022 to April 2022"
-    me="-20px" 
+
     bg="#FFFFFF"
     />
-</div>
-<div className={styles.column}>
+  </div>
+<div className={styles.rightycolumn}>
 
 <Projectbox src="trackstacks.png"
     heading="Role: UI/UX designer  "
@@ -59,20 +88,25 @@ export default function Home() {
       <spacer></spacer>
       <hr/>
         <div className={styles.row}>
+        <div className={styles.spacing}>
           <Image
           src="/Discovering china.png"
-          width={400}
-          height={300}
+          width={550}
+          height={500}
+          margin-right={70}
           />
+          </div>
                     <Image
           src="/Noctis edit.png"
           width={400}
-          height={300}
+          height={500}
+          margin-right={90}
           />
                     <Image
           src="/End of us photoshop.jpg"
-          width={400}
-          height={300}
+          width={550}
+          height={500}
+          margin-right={10}
           />
 
         </div>
@@ -89,16 +123,48 @@ export default function Home() {
         />
         <Skillsbox src="Illustrator.png" 
         heading="Illustrator"
-        text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' 
+        text='I have experience creating icons, vectors, logos and character Illustrations with the application.' 
         me="90px" 
         bg="#FF9A00"
         />
         <Skillsbox src="Indesign.png" 
         heading="Indesign"
-        text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.'
+        text="In InDesign I've created various layouts poster designs and an interactive project combining both the other programs to create visual assets."
          me="10px" 
          bg="#FF3366"
         />
+        </div>
+
+        <div className={styles.purpleheader}>Contact</div>
+      <space></space>
+      <hr/>
+        <div className={styles.row}>
+          
+        <Contactsbox src="/Gmail.png" 
+        heading="Email"
+        text='You can reach me at either 
+        tylerlee1295@gmail.com or
+        tylerlee888@hotmail.com' 
+        me="80px" 
+        bg="linear-gradient(#6EA2D1, #F2295B)"
+        
+        />
+        <Contactsbox src="/linkedin.png" 
+        heading="Social media"
+        text="I'm not the most active on Linkedin but I will respond within a day, click here to visit my page." 
+        me="90px" 
+        bg="linear-gradient(#B848F0, #29A3F2)"
+        
+        />
+        <Contactsbox src="/phone.png" 
+        heading="Phone"
+        text="I will reply to your text within a day at
+        778-558-1388." 
+        me="-10px" 
+        bg="linear-gradient(#E187DE, #F2295B)"
+        
+        />
+
         </div>
       </main>
     </>
@@ -106,6 +172,6 @@ export default function Home() {
 }
 
 
-const spacer = styled.div `
+const space = styled.div `
 height: 200px
 `
