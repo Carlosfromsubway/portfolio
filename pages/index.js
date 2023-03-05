@@ -249,7 +249,7 @@ export default function Home() {
       <space></space>
       <hr/>
         <div className={styles.row}>
-          
+          <div className={styles.contactspace}>
         <Contactsbox src="/Gmail.png" 
         heading="Email"
         text='You can reach me at either 
@@ -274,7 +274,7 @@ export default function Home() {
         bg="linear-gradient(#E187DE, #F2295B)"
         
         />
- 
+ </div>
         </div>
 
           
