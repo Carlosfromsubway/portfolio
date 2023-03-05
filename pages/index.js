@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Skillsbox from '@/components/skills'
 import styled from 'styled-components'
 import Projectbox from '@/components/projects'
+
 import Contactsbox from '@/components/contacts'
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,6 +50,7 @@ export default function Home() {
 <div className={styles.purpleheader}>Projects</div>
     <div className={styles.row}>
       <div className={styles.leftycolumn}>
+        <div className={styles.grow}>
     <Projectbox src="yugioh demo.png"
     heading="Role: Graphic desginer "
     text='This was a solo project where I created digital illustrations of two 
@@ -57,6 +59,8 @@ export default function Home() {
 
     bg="#FFFFFF"
     />
+    </div>
+    <div className={styles.grow}>
     <Projectbox src="Tactical Pigeons.png"
     heading="Role: Graphic desginer "
     text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
@@ -64,9 +68,10 @@ export default function Home() {
 
     bg="#FFFFFF"
     />
+    </div>
   </div>
 <div className={styles.rightycolumn}>
-
+<div className={styles.grow}>
 <Projectbox src="trackstacks.png"
     heading="Role: UI/UX designer  "
     text='An expo app that aims to assist those with ADHD properly stay on task and help them time manage. In this project I performed user research and testing. I worked along side 3 other designers to create page layouts and structures for the app.'
@@ -74,6 +79,8 @@ export default function Home() {
     me="-20px" 
     bg="#FFFFFF"
     />
+    </div>
+    <div className={styles.grow}>
     <Projectbox src="Elevate.png"
     heading="Role: UI/UX designer "
     text='Elevate is a Figma mockup of a music streaming app, simalair to apple music and spottily. I developed the layout of the main page, sign in page and purchasing pages. I referenced the previously mentioned apps to give a familiar and effective design..'
@@ -81,6 +88,7 @@ export default function Home() {
     me="-20px" 
     bg="#FFFFFF"
     />
+    </div>
 </div>
 
     </div>
@@ -111,30 +119,82 @@ export default function Home() {
 
         </div>
         <div className={styles.purpleheader}>Skills</div>
-      <spacer></spacer>
-      <hr/>
         <div className={styles.row}>
-          
-        <Skillsbox src="Photoshop.png" 
-        heading="Photoshop"
-        text='I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.' 
-        me="80px" 
-        bg="#31A8FF"
-        />
-        <Skillsbox src="Illustrator.png" 
-        heading="Illustrator"
-        text='I have experience creating icons, vectors, logos and character Illustrations with the application.' 
-        me="90px" 
-        bg="#FF9A00"
-        />
-        <Skillsbox src="Indesign.png" 
-        heading="Indesign"
-        text="In InDesign I've created various layouts poster designs and an interactive project combining both the other programs to create visual assets."
-         me="10px" 
-         bg="#FF3366"
-        />
-        </div>
+        <div class={styles.maincontainer}>
 
+          <div class={styles.thecard}>
+
+
+            <div class={styles.thefront}>
+
+              <Image
+              src="/Photoshop.png" 
+              width={90}
+              height={80}
+              />
+              <h1>Photoshop</h1>
+              <p className={styles.typography}>I am the most experienced in this application and I can comfortable, masking images, color changing, creating posters and editing faces.</p></div>
+
+            <div class={styles.theback}> 
+            <Image
+            src="/Noctis edit.png"
+            width={550}
+            height={500}
+            />
+           </div>
+
+          </div>
+          </div>
+
+          <div class={styles.maincontainer2}>
+          <div class={styles.thecard2}>
+
+
+            <div class={styles.thefront2}>
+
+              <Image
+              src="/Illustrator.png" 
+              width={90}
+              height={80}
+              />
+              <h1>Illustrator</h1>
+              <p className={styles.typography}>I have experience creating icons, vectors, logos and character Illustrations with the application.</p></div>
+
+            <div class={styles.theback2}> 
+            <Image
+            src="/Bellatrix Blueberry.png"
+            width={400}
+            height={500}
+            />
+           </div>
+
+          </div>
+          </div>
+          <div class={styles.maincontainer3}>
+          <div class={styles.thecard3}>
+
+
+            <div class={styles.thefront3}>
+
+              <Image
+              src="/Indesign.png" 
+              width={90}
+              height={80}
+              />
+              <h1>Indesign</h1>
+              <p className={styles.typography}>In InDesign I've created various layouts, poster designs and an interactive project combining both the other programs to create visual assets.</p></div>
+
+            <div class={styles.theback3}> 
+            <Image
+            src="/yugioh screen.png"
+            width={550}
+            height={500}
+            />
+           </div>
+
+          </div>
+          </div>
+          </div>
         <div className={styles.purpleheader}>Contact</div>
       <space></space>
       <hr/>
@@ -164,8 +224,10 @@ export default function Home() {
         bg="linear-gradient(#E187DE, #F2295B)"
         
         />
-
+ 
         </div>
+
+          
       </main>
     </>
   )

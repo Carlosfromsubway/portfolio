@@ -19,7 +19,7 @@ export default function Projectbox({
         > <img
         
         src={src}
-        width={619}
+        width={615}
         height={320}
 
       />

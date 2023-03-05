@@ -78,3 +78,215 @@
 .spacing {
   margin-left: 80px;
 }
+
+
+.maincontainer{
+  flex-direction: row;
+  width: 250px;
+  height: 320px;
+  display: flex;
+  transform: translate(-50%, -50%);
+  margin-left: 220px;
+  margin-top: 200px;
+
+}
+.maincontainer2{
+  flex-direction: row;
+  width: 250px;
+  height: 320px;
+  display: flex;
+  transform: translate(-50%, -50%);
+  margin-left: 190px;
+  margin-top: 200px;
+
+}
+.maincontainer3{
+  flex-direction: row;
+  width: 250px;
+  height: 320px;
+  display: flex;
+  transform: translate(-50%, -50%);
+  margin-left: 200px;
+  margin-top: 200px;
+
+}
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  flex-direction:column;
+  color: #FFFFFF;
+  box-shadow: 10px 14px #888888;
+  border-radius: 8px;
+  align-items: center;
+  padding-top: 30px;
+  justify-items:center;
+  text-align: center;
+  margin-bottom:30px;
+  background-color:#31A8FF ;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  flex-direction:column;
+  border-radius: 8px;
+  align-items: center;
+  justify-items:center;
+  object-fit: cover;
+  transform: rotateY(180deg);
+
+}
+  
+.thecard2:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  flex-direction:column;
+  color: #FFFFFF;
+  box-shadow: 10px 14px #888888;
+  border-radius: 8px;
+  align-items: center;
+  padding-top: 30px;
+  justify-items:center;
+  text-align: center;
+  margin-bottom:30px;
+  background-color:#FF9A00 ;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  flex-direction:column;
+  border-radius: 8px;
+  align-items: center;
+  justify-items:center;
+  object-fit: cover;
+  transform: rotateY(180deg);
+
+}
+  
+.thecard2{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.typography {
+  font-size: 21px;
+color: #F2F2F2;
+justify-content: center;
+margin-top: 10px;
+padding: 10px;
+text-align:center;
+
+}
+
+.thecard3:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  flex-direction:column;
+  color: #FFFFFF;
+  box-shadow: 10px 14px #888888;
+  border-radius: 8px;
+  align-items: center;
+  padding-top: 30px;
+  justify-items:center;
+  text-align: center;
+  margin-bottom:30px;
+  background-color:#FF3366 ;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  flex-direction:column;
+  border-radius: 8px;
+  align-items: center;
+  justify-items:center;
+  object-fit: cover;
+  transform: rotateY(180deg);
+
+}
+  
+.thecard3{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.grow { transition: all .3s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

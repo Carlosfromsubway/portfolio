@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import styles from '@/styles/Home.module.css'
+
 export default function Skillsbox ({
     src="",
     text="",
@@ -48,13 +48,7 @@ text-align: center;
 margin-bottom:30px;
 margin-right:${props=>props.marR};
 background-color:${props=>props.bog};
-transform-style: preserve-3d;
-transition: all 0.4s ease;
-backface-visibility: hidden;
-`
-const Backcard = styled.div`
-backface-visibility: hidden;
-transform: rotateY(180deg);
+
 `
 const Typography = styled.div `
 font-size: 21px;
