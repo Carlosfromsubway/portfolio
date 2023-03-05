@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import Seemore from "../button"
 export default function Projectbox({
     src="",
     text="",
@@ -25,8 +25,12 @@ export default function Projectbox({
       />
       <Head>{heading}</Head>
       <Typography>{text}</Typography>
-      <Typography>{date}</Typography>
-       
+      
+      <Mover><Typography>{date}</Typography>
+      <BMover> 
+       <Seemore>text="I'm not the most active on Linkedin but I will respond within a day, click here to visit my page." </Seemore>
+       </BMover>
+       </Mover>
       </Card>
 
         </div>
@@ -60,4 +64,13 @@ justify-content: center;
 margin-top: 10px;
 padding: 10px;
 
+`
+const Mover = styled.div `
+display flex;
+flex-direction: row;
+`
+
+const BMover = styled.div `
+padding-left: 420px;
+position: absolute;
 `

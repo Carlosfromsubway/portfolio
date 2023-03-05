@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Skillsbox from '@/components/skills'
 import styled from 'styled-components'
 import Projectbox from '@/components/projects'
-
+import Seemore from '@/components/button'
 import Contactsbox from '@/components/contacts'
 const inter = Inter({ subsets: ['latin'] })
 
@@ -93,31 +93,80 @@ export default function Home() {
 
     </div>
       <div className={styles.purpleheader}>Graphics</div>
-      <spacer></spacer>
+      
       <hr/>
         <div className={styles.row}>
         <div className={styles.spacing}>
+        <div className={styles.conty}> 
           <Image
           src="/Discovering china.png"
           width={550}
           height={500}
           margin-right={70}
           />
+         
+         <div className={styles.overlay}>
+
+<div className={styles.contenty}>
+<h2>Album Cover</h2>
+<p>Pure photoshop project where I created my own custom space background using various filters and colored brushes. 
+  The black hole was created by my self as well and the meteors contain blur effects.</p>
+
+</div>
+</div>
+</div>
           </div>
-                    <Image
-          src="/Noctis edit.png"
-          width={400}
-          height={500}
-          margin-right={90}
-          />
+          
+          <div className={styles.spacing}>
+          <div className={styles.conty}>
+                          <Image
+                src="/Noctis edit.png"
+                width={400}
+                height={500}
+                margin-right={90}
+                />
+              <div className={styles.overlay}>
+
+                  <div className={styles.contenty}>
+                    <h2>Noctis Character Edit</h2>
+                  <p>Graphical edit of a Noctis cosplayer. I used photoshop and Illustrator to create this graphic. 
+                    I masked out the cosplayer from the proginal background, masked a sword figurine and added to the graphic, created a custom crystal brush and added afterglow to illuminate the night background.</p>
+
+                  </div>
+          </div>
+
+          </div>
+          
+          </div>          
+          <div className={styles.spacing}>
+            <div className={styles.conty}>
                     <Image
           src="/End of us photoshop.jpg"
           width={550}
           height={500}
           margin-right={10}
           />
+              <div className={styles.overlay}>
 
+          <div className={styles.contenty}>
+          <h2>Album Cover</h2>
+          <p>Pure photoshop project where I created my own custom space background using various filters and colored brushes. 
+            The black hole was created by my self as well and the meteors contain blur effects.</p>
+
+          </div>
+          </div>
+
+
+          </div>
+          </div>  
         </div>
+        <div className={styles.row}>
+        <a href="http://35.87.27.6/132-2/"></a>
+        <Seemore
+            
+        />
+
+    </div>
         <div className={styles.purpleheader}>Skills</div>
         <div className={styles.row}>
         <div class={styles.maincontainer}>
@@ -195,6 +244,7 @@ export default function Home() {
           </div>
           </div>
           </div>
+
         <div className={styles.purpleheader}>Contact</div>
       <space></space>
       <hr/>
