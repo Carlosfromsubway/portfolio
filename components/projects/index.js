@@ -13,13 +13,14 @@ export default function Projectbox({
    
 
     return (
+        <Cmover> 
         <div> 
         <Card
         bog={bg}
         > <img
         
         src={src}
-        width={615}
+        width={515}
         height={320}
 
       />
@@ -34,11 +35,12 @@ export default function Projectbox({
       </Card>
 
         </div>
+        </Cmover>
     )
     }
 
 const Card = styled.div `
-width: 620px;
+width: 520px;
 height: 600px;
 display: flex;
 flex-direction:column;
@@ -71,6 +73,12 @@ flex-direction: row;
 `
 
 const BMover = styled.div `
-padding-left: 420px;
+padding-left: 320px;
 position: absolute;
+padding-top:
+`
+
+const Cmover = styled.div `
+padding-top: 50px;
+
 `

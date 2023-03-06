@@ -117,7 +117,7 @@ export default function Home() {
 </div>
           </div>
           
-          <div className={styles.spacing}>
+          <div className={styles.spacing3}>
           <div className={styles.conty}>
                           <Image
                 src="/Noctis edit.png"
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
           
           </div>          
-          <div className={styles.spacing}>
+          <div className={styles.spacing2}>
             <div className={styles.conty}>
                     <Image
           src="/End of us photoshop.jpg"
@@ -259,7 +259,7 @@ export default function Home() {
         bg="linear-gradient(#6EA2D1, #F2295B)"
         
         />
-        <Contactsbox src="/linkedin.png" 
+        <Contactsbox src="/Linkedin.png" 
         heading="Social media"
         text="I'm not the most active on Linkedin but I will respond within a day, click here to visit my page." 
         me="90px" 

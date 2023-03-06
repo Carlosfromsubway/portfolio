@@ -17,8 +17,8 @@ export default function Seemore({
 
 
 const Button = styled.button`
-width: 170px;
-height: 45px;
+width: 160px;
+height: 40px;
 background-color:#306EE1;
 color: white;
 font-size: 20px;
