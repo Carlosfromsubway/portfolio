@@ -40,14 +40,15 @@
 .piccolumn {
   display:flex;
   flex-direction: column;
-  margin-left: -100px;
+  margin-left: -270px;
 }
 
 .headercontentcolumn{
   display:flex;
   flex-direction: column;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-top: 100px;
+  width: 80%;
 }
 
 .headerfont {
@@ -287,7 +288,7 @@ text-align:center;
   height: 100%;
   border-radius: 10px;
   transform-style: preserve-3d;
-  transition: all 0.8s ease;
+  transition: all 0.7s ease;
 }
 
 .grow { transition: all .3s ease-in-out; }
@@ -354,4 +355,67 @@ text-align: center;
 .spacing3 {
 
   margin-left: -10px;
+}
+
+.wordwrap {
+display: inline-flex;
+
+}
+
+.list {
+  margin-left: 20px;
+}
+
+.wordwrap .list{
+  line-height: 30px;
+  height: 64px;
+  /* */overflow: hidden;
+}
+
+.headerstatic {
+  font-size: 50px;
+  color: #636363;
+}
+
+.headerstatic .wordwrap{
+color: #F2F2F2;
+font-size: 50px;
+font-weight: 300;
+overflow: hidden;
+line-height: 80px;
+}
+
+.list li{
+  list-style: none;
+  font-size: 50px;
+  color: rgb(0, 140, 255);
+  font-weight: 500;
+  top: 0;
+  position: relative;
+  
+}
+
+
+
+.list li span {
+  position: relative;
+}
+
+.list li span::after {
+  content:"";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left:2px solid rgb(0, 140, 255) ;
+  animation: typing 2.3s steps(10) infinite;
+  background: #FAE29C ;
+}
+
+@keyframes typing {
+  40%, 60%{
+    left: 100%;
+    
+  }
+
 }

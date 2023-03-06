@@ -22,8 +22,14 @@ export default function Home() {
       
 <div className={styles.colorrow}>
     <div className={styles.headercontentcolumn}>
+      
     <h1 className={styles.headerfont}>Tyler Lee</h1>
-    <h1 className={styles.headerfont}>I can be your graphic designer</h1>
+    <div className={styles.row}>
+    <h1 className={styles.headerstatic}>I can be your   </h1>
+      <ul className={styles.list}>
+      <li><span> Graphic Designer</span></li>
+      </ul>
+      </div>
     <p className={styles.contentfont}>
     Hi there, I'm a Digital, Design, and Development student who specializes in graphic design. 
     My main areas of expertise are in Photoshop, Illustrator, Indesign, and utilizing Autodesk sketchbook. 
@@ -108,9 +114,8 @@ export default function Home() {
          <div className={styles.overlay}>
 
 <div className={styles.contenty}>
-<h2>Album Cover</h2>
-<p>Pure photoshop project where I created my own custom space background using various filters and colored brushes. 
-  The black hole was created by my self as well and the meteors contain blur effects.</p>
+<h2>Indesign mulitpage magazine</h2>
+<p>An 8 page magazine featuring various photos of Chinese architecture.  I used Indesign to crwate the layout and the character and paragraph styles.</p>
 
 </div>
 </div>
