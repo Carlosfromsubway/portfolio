@@ -82,7 +82,7 @@ export default function Home() {
     heading="Role: UI/UX designer  "
     text='An expo app that aims to assist those with ADHD properly stay on task and help them time manage. In this project I performed user research and testing. I worked along side 3 other designers to create page layouts and structures for the app.'
     date="September 2022 to December 2022"
-    me="-20px" 
+    
     bg="#FFFFFF"
     />
     </div>
@@ -91,7 +91,7 @@ export default function Home() {
     heading="Role: UI/UX designer "
     text='Elevate is a Figma mockup of a music streaming app, simalair to apple music and spottily. I developed the layout of the main page, sign in page and purchasing pages. I referenced the previously mentioned apps to give a familiar and effective design..'
     date="January 2022 to April 2022"
-    me="-20px" 
+    
     bg="#FFFFFF"
     />
     </div>
@@ -101,14 +101,14 @@ export default function Home() {
       <div className={styles.purpleheader}>Graphics</div>
       
       <hr/>
-        <div className={styles.row}>
+        <div className={styles.rowpics}>
         <div className={styles.spacing}>
         <div className={styles.conty}> 
           <Image
           src="/Discovering china.png"
           width={550}
           height={500}
-          margin-right={70}
+          
           />
          
          <div className={styles.overlay}>
@@ -128,7 +128,7 @@ export default function Home() {
                 src="/Noctis edit.png"
                 width={400}
                 height={500}
-                margin-right={90}
+               
                 />
               <div className={styles.overlay}>
 
@@ -149,7 +149,7 @@ export default function Home() {
           src="/End of us photoshop.jpg"
           width={550}
           height={500}
-          margin-right={10}
+       
           />
               <div className={styles.overlay}>
 
@@ -165,8 +165,8 @@ export default function Home() {
           </div>
           </div>  
         </div>
-        <div className={styles.row}>
-        <a href="http://35.87.27.6/132-2/"></a>
+        <div className={styles.rowb}>
+        
         <Seemore
             
         />
