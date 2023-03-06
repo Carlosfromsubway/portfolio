@@ -40,8 +40,8 @@ export default function Home() {
     <div className={styles.piccolumn}>
     <Image
     src="/thumbnail wordpress v2.png"
-    width={1100}
-    height={650}
+    width={1000}
+    height={620}
     
     />
 
@@ -264,7 +264,7 @@ export default function Home() {
         bg="linear-gradient(#6EA2D1, #F2295B)"
         
         />
-        <Contactsbox src="/Linkedin.png" 
+        <Contactsbox src="/linkedin.png" 
         heading="Social media"
         text="I'm not the most active on Linkedin but I will respond within a day, click here to visit my page." 
         me="90px" 
