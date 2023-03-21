@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import styles from '@/styles/Home.module.css'
 export default function Seemore({
 
     text=""
@@ -7,7 +7,7 @@ export default function Seemore({
 }){
     return(
         <div>
-            <Button>{text}See More</Button>
+            <Button className={styles.BButton}>{text}See More</Button>
             
             
             
@@ -17,16 +17,7 @@ export default function Seemore({
 
 
 const Button = styled.button`
-width: 160px;
-height: 40px;
-background-color:#306EE1;
-color: white;
-font-size: 20px;
-margin-top: 20px;
-border-radius: 10px;
-justify-content: center;
-align-items: center;
-font-size: 17px;
+
 `
 const Typography = styled.div `
 font-size: 20px;
