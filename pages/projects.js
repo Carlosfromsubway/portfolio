@@ -10,7 +10,7 @@ import Link from 'next/link'
 import Navbar from '@/components/navbar'
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Head>
@@ -52,7 +52,7 @@ export default function Home() {
     heading="Role: UI/UX designer  "
     text='An expo app that aims to assist those with ADHD properly stay on task and help them time manage. In this project I performed user research and testing. I worked along side 3 other designers to create page layouts and structures for the app.'
     date="September 2022 to December 2022"
-    
+    href="/trackstacks"
     bg="#FFFFFF"
     />
     </div>
@@ -134,14 +134,73 @@ export default function Home() {
 
           </div>
           </div>  
+          
         </div>
-        <div className={styles.rowb}>
-        
-        <Seemore
-            
-        />
+        <div className={styles.rowpicsb}>
+        <div className={styles.spacing}>
+        <div className={styles.conty}> 
+          <Image
+          src="/Discovering china.png"
+          width={550}
+          height={500}
+          
+          />
+         
+         <div className={styles.overlay}>
 
-    </div>
+<div className={styles.contenty}>
+<h2>Indesign mulitpage magazine</h2>
+<p>An 8 page magazine featuring various photos of Chinese architecture.  I used Indesign to crwate the layout and the character and paragraph styles.</p>
+
+</div>
+</div>
+</div>
+          </div>
+          
+          <div className={styles.spacing3}>
+          <div className={styles.conty}>
+                          <Image
+                src="/Atem drawing.png"
+                width={570}
+                height={500}
+               
+                />
+              <div className={styles.overlay}>
+
+                  <div className={styles.contenty}>
+                    <h2>Character Drawing</h2>
+                  <p>Graphical edit of a Noctis cosplayer. I used photoshop and Illustrator to create this graphic. 
+                    I masked out the cosplayer from the proginal background, masked a sword figurine and added to the graphic, created a custom crystal brush and added afterglow to illuminate the night background.</p>
+
+                  </div>
+          </div>
+
+          </div>
+          
+          </div>          
+          <div className={styles.spacing2}>
+            <div className={styles.conty}>
+                    <Image
+          src="/Kaiba drawing.png"
+          width={580}
+          height={500}
+       
+          />
+              <div className={styles.overlay}>
+
+          <div className={styles.contenty}>
+          <h2>Character Drawing</h2>
+          <p>Pure photoshop project where I created my own custom space background using various filters and colored brushes. 
+            The black hole was created by my self as well and the meteors contain blur effects.</p>
+
+          </div>
+          </div>
+
+
+          </div>
+          </div>
+          </div>  
+
        
  
         

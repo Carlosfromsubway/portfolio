@@ -16,9 +16,10 @@
 
 .purpleheader {
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 600;
   justify-content: center;
   align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:rgb(27, 106, 255);
   margin-top: 80px;
 }
@@ -57,7 +58,7 @@
   color: rgb(27, 106, 255);
   font-size: 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 500;
+  font-weight:bold;
   width: 900px;
   margin-top: 20px;
 
@@ -403,6 +404,13 @@ line-height: 90px;
   display: flex;
   flex-direction: row;
   margin-left: 350px;
+ 
+}
+.rowpicsb {
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+  margin-top: -200px;
 }
 
 .list li span {
@@ -484,4 +492,17 @@ border: 2px solid #31A8FF;
 
 .BButton:hover {
   background-color:#1152c9;
+  color: #F2F2F2;
+}
+
+.textcontent {
+  width: 30%;
+  color: #1f1f1f;
+}
+
+.dots {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  color: black;
 }

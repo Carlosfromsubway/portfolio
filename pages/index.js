@@ -67,13 +67,10 @@ export default function Home() {
 <div className={styles.purpleheader}>About Me</div>
     
       
-        <div className={styles.rowb}>
-        
-        <Seemore
-            
-        />
+<button className={styles.BButton}><Link href="/projects"> View Portfolio</Link></button>
 
-    </div>
+
+
         <div className={styles.purpleheader}>Skills</div>
         <div className={styles.row}>
         <div class={styles.maincontainer}>

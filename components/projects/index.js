@@ -1,11 +1,14 @@
 import styled from "styled-components"
 import Seemore from "../button"
+import styles from '@/styles/Home.module.css'
+import Link from "next/link"
 export default function Projectbox({
     src="",
     text="",
     heading="",
     date="",
-    bg=""
+    bg="",
+    href=""
 
 }) {
 
@@ -29,7 +32,7 @@ export default function Projectbox({
       
       <Mover><Typography>{date}</Typography>
       <BMover> 
-       <Seemore>text="I'm not the most active on Linkedin but I will respond within a day, click here to visit my page." </Seemore>
+      <button className={styles.BButton}><Link href={href}> See More</Link></button>
        </BMover>
        </Mover>
       </Card>
