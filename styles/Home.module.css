@@ -498,11 +498,21 @@ border: 2px solid #31A8FF;
 .textcontent {
   width: 30%;
   color: #1f1f1f;
+  
+  padding-top: 30px;
+
+}
+
+.slidetext {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .dots {
-  font-size: 40px;
+  font-size: 60px;
   display: flex;
+  width: 40px;
   flex-direction: row;
   color: black;
 }

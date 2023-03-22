@@ -39,7 +39,7 @@ const ImageSlider = ({slides}) => {
     const dotstyle = {
         margin: "0 3px",
         cursor: "pointer",
-        fontsize: "40px",
+        fontsize: "50px",
         color: "black",
     };
 
@@ -66,7 +66,9 @@ const ImageSlider = ({slides}) => {
     return (
         <div style={sliderstyles}>
             <div style={leftarrow} onClick={goToPrevious}>  ↤ </div>
-            <div style={rightarrow} onClick={goToNext}>  ↦ </div>
+            <div style={rightarrow} onClick={goToNext}>  ↦
+            <img href="/arrowicon.png"></img>
+             </div>
             <div style={slideStyles}>
                 <div style={dotcont}>
                     {slides.map((slides, slideIndex) => (
