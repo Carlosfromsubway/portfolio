@@ -33,7 +33,7 @@ export default function Projects() {
     yu-gi-oh characters. I used autodesk sketchbook to create them and a majority of the graphical assets, like the card backs.'
     date="November 2022 to December 2022"
 
-    bg="#FFFFFF"
+    bg="#50505077"
     />
     </div>
     <div className={styles.grow}>
@@ -42,7 +42,7 @@ export default function Projects() {
     text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
     date="January 2022 to April 2022"
 
-    bg="#FFFFFF"
+    bg="#50505077"
     />
     </div>
   </div>
@@ -53,7 +53,7 @@ export default function Projects() {
     text='An expo app that aims to assist those with ADHD properly stay on task and help them time manage. In this project I performed user research and testing. I worked along side 3 other designers to create page layouts and structures for the app.'
     date="September 2022 to December 2022"
     href="/trackstacks"
-    bg="#FFFFFF"
+    bg="#50505077"
     />
     </div>
     <div className={styles.grow}>
@@ -62,7 +62,7 @@ export default function Projects() {
     text='Elevate is a Figma mockup of a music streaming app, simalair to apple music and spottily. I developed the layout of the main page, sign in page and purchasing pages. I referenced the previously mentioned apps to give a familiar and effective design..'
     date="January 2022 to April 2022"
     
-    bg="#FFFFFF"
+    bg="#50505077"
     />
     </div>
 </div>

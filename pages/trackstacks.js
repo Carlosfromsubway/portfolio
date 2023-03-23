@@ -19,8 +19,13 @@ export default function TrackStacks() {
         <main className={styles.main}>
             <Navbar/>
             <div className={styles.row}> 
-            <h1 className={styles.purpleheader}>Introducing </h1>
-            <h1 className={styles.purpleheader}>TrackStacks</h1>
+            <div className={styles.titlecard}> 
+            <Image 
+            src="/ts title.png"
+            width={358}
+            height={97}
+            />
+            </div>
             </div>
 
       <div>

@@ -4,7 +4,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-color: aliceblue;
+  background-color: rgb(0, 7, 24);
 }
 
 
@@ -497,7 +497,7 @@ border: 2px solid #31A8FF;
 
 .textcontent {
   width: 30%;
-  color: #1f1f1f;
+  color: #f6f6f6;
   
   padding-top: 30px;
 
@@ -514,5 +514,14 @@ border: 2px solid #31A8FF;
   display: flex;
   width: 40px;
   flex-direction: row;
-  color: black;
+  color: #50505077;
+}
+
+.titlecard {
+  margin-top: 30px;
+
+}
+
+.titlecard:hover {
+  opacity: 80%;
 }

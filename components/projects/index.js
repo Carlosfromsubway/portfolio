@@ -43,7 +43,7 @@ export default function Projectbox({
     }
 
 const Card = styled.div `
-width: 520px;
+width: 519px;
 height: 600px;
 display: flex;
 flex-direction:column;
@@ -52,23 +52,23 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
 border: 3px solid black;
 margin-bottom:30px;
 background-color:${props=>props.bog};
-
+border: 2px solid #00E9FF;
 `
 const Typography = styled.div `
-font-size: 20px;
-color: black;
+font-size: 18px;
+color: F2F2F2;
 margin-top: 10px;
 padding: 10px;
-
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
 const Head = styled.div `
-font-size: 30px;
+font-size: 28px;
 font-weight: 300;
-color: black;
+color: white;
 justify-content: center;
 margin-top: 10px;
 padding: 10px;
-
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
 const Mover = styled.div `
 display flex;
