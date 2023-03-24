@@ -10,6 +10,7 @@ import Contactsbox from '@/components/contacts'
 import Navbar from '@/components/navbar'
 import Link from 'next/link'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -41,10 +42,13 @@ export default function Home() {
     </p>
     <div className={styles.row}> 
     <div> 
+      <div className={styles.hb}> 
     <button className={styles.BButton}><Link href="/projects"> View Portfolio</Link></button>
-    
     </div>
-    <button className={styles.BButton}>Contact Me</button>
+    </div>
+    <div className={styles.hb2}> 
+    <button className={styles.BButton2}>Contact Me</button>
+    </div>
     </div>
     </div>
 
@@ -65,7 +69,14 @@ export default function Home() {
 
 
 <div className={styles.purpleheader}>About Me</div>
-    
+    <div className={styles.about}>
+          <p className={styles.abouttext}>
+             Dedicated BCIT design student seeking employment. Adept in
+            Using programs such as, Adobe Photoshop, Illustrator, Indesign
+            And FIgma. Flexible within team environments and able to work
+            Efficiently. Committed to utilizing my skills to further improve the company
+          </p>
+    </div>
       
 <button className={styles.BButton}><Link href="/projects"> View Portfolio</Link></button>
 
@@ -151,6 +162,7 @@ export default function Home() {
 
         <div className={styles.purpleheader}>Contact</div>
       <space></space>
+      
       <hr/>
         <div className={styles.row}>
           <div className={styles.contactspace}>

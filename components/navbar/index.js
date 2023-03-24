@@ -6,7 +6,7 @@ export default function Navbar() {
 <Card>
 <Link className={styles.Links}
     href="/">Home  </Link>
-    <Link className={styles.Links} href="/projects"> Projects</Link>
+    <Link className={styles.Links} href="/projects"> Portfolio</Link>
     
 
         <Link className={styles.Links}
@@ -29,5 +29,5 @@ padding-top: 60px;
 margin-top: -100px;
 justify-content: flex-end;
 text-align: center;
-border: 3px solid #31A8FF;
+border: 2px solid #31A8FF;
 `

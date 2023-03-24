@@ -39,7 +39,7 @@ height: 320px;
 display: flex;
 flex-direction:column;
 color: #FFFFFF;
-box-shadow: 10px 14px #888888;
+box-shadow: 10px 14px #50505077;
 border-radius: 8px;
 align-items: center;
 padding-top: 30px;

@@ -41,7 +41,7 @@ export default function Projects() {
     heading="Role: Graphic desginer "
     text='Tactical pigeons is a rock paper scissors based game with pigeons competing for food as the main attraction. On this game I developed the graphics for the pigeons in illustrator and colored them all there as well.'
     date="January 2022 to April 2022"
-
+    href="/tacticalpigeons"
     bg="#50505077"
     />
     </div>
