@@ -40,24 +40,30 @@ export default function Yugioh() {
     <div className={styles.row}>
       <div className={styles.leftycolumn1}>
         <div className={styles.row}>
-            <h1 className={styles.purpleheader}>Team LIPSTYC </h1>
+        <Image
+        src="/Atem drawing.png"
+        width={500}
+        height={400}
+        />
           
             </div>
-            <p className={styles.textcontent}>I worked in a team of 6; 3 Digital, Design, and Development students and 3 Full Stack coding students. I was on the design side and focused on creating the playable characters. I made 4 versions of playable pigeons.</p>
+            
     </div>
  
-        <div className={styles.rightycolumn1}>
+        <div className={styles.rightycolumn3}>
         <Image
-        src="/lipstyc.png"
-        width={300}
-        height={200}
+        src="/Kaiba drawing.png"
+        width={500}
+        height={400}
         />
         </div>
 </div>
-        <div style={contain}> 
-        <ImageSlider slides={slides}/>
+        <div> 
+       
         </div>
-        <p className={styles.slidetext}> The pigeons were all created in Adobe Illustrator and referenced from various illustrations and other vectors. I attempted to give them a cartoony and playful look better associate with our young target audience. I chose to give them only a few colors each to keep their design simple and have their few colors stand out. </p>
-        </main>
+        <div className={styles.about}> 
+        <p className={styles.abouttext}> Both Kaiba and Atem were made in auto desk sketchbook and exported as png’s. I created them using pencil tools to create the base design, pen tools to give them both outllines around the outer edges and to color, and I used an airbrush to give Kaiba’s duel disk a glossy and glowy appearance. I used official art from the movie Dark Sides of Dimensions and the mobile game duel links as reference points to create my variants. </p>
+        </div>
+       </main>
     )
 }

@@ -558,7 +558,7 @@ border: 2px solid #31A8FF;
 }
 
 .about {
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -569,7 +569,7 @@ border: 2px solid #31A8FF;
 .abouttext{
   font-size: 22px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 50%;
+  width: 60%;
 }
 
 .rightycolumn1 {
