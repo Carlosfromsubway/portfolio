@@ -32,7 +32,7 @@ export default function Projects() {
     text='This was a solo project where I created digital illustrations of two 
     yu-gi-oh characters. I used autodesk sketchbook to create them and a majority of the graphical assets, like the card backs.'
     date="November 2022 to December 2022"
-
+    href="/yugioh"
     bg="#50505077"
     />
     </div>
@@ -61,7 +61,7 @@ export default function Projects() {
     heading="Role: UI/UX designer "
     text='Elevate is a Figma mockup of a music streaming app, simalair to apple music and spottily. I developed the layout of the main page, sign in page and purchasing pages. I referenced the previously mentioned apps to give a familiar and effective design..'
     date="January 2022 to April 2022"
-    
+    href="/elevate"
     bg="#50505077"
     />
     </div>

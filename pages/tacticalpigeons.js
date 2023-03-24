@@ -4,11 +4,11 @@ import Navbar from "@/components/navbar";
 import styles from '@/styles/Home.module.css';
 import Image from "next/image";
 import ImageSlider from "@/components/Imageslide";
-export default function TrackStacks() {
+export default function Tacticalpigeons() {
     const slides = [
+        {url: "Default v2.png"},
+        {url: "Fancy V2.png"},
         {url: "track1.png"},
-        {url: "track2.png"},
-        {url: "track3.png"},
     ];
 
     const contain = {
