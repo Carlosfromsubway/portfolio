@@ -9,11 +9,12 @@ export default function Yugioh() {
         {url: "Default v2.png"},
         {url: "Fancy V2.png"},
         {url: "track1.png"},
+        {url: "Hoodie Bird.png"},
     ];
 
     const contain = {
-        width: "500px",
-        height: "300px",
+        width: "1000px",
+        height: "500px",
     }
     return (
         <main className={styles.main}>

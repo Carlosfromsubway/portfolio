@@ -3,18 +3,10 @@ import React from "react";
 import Navbar from "@/components/navbar";
 import styles from '@/styles/Home.module.css';
 import Image from "next/image";
-import ImageSlider from "@/components/Imageslide";
-export default function Tacticalpigeons() {
-    const slides = [
-        {url: "Default v2.png"},
-        {url: "Fancy V2.png"},
-        {url: "track1.png"},
-    ];
 
-    const contain = {
-        width: "500px",
-        height: "300px",
-    }
+export default function Tacticalpigeons() {
+
+
     return (
         <main className={styles.main}>
             <Navbar/>
@@ -53,10 +45,44 @@ export default function Tacticalpigeons() {
         />
         </div>
 </div>
-        <div style={contain}> 
-        <ImageSlider slides={slides}/>
+        <div style={styles.contain}> 
+      
         </div>
-        <p className={styles.slidetext}> The pigeons were all created in Adobe Illustrator and referenced from various illustrations and other vectors. I attempted to give them a cartoony and playful look better associate with our young target audience. I chose to give them only a few colors each to keep their design simple and have their few colors stand out. </p>
+        
+        <div className={styles.row}>
+      <div className={styles.leftycolumn3}>
+     
+        <Image
+        src="/Default v2.png"
+        width={400}
+        height={600}
+        />
+                <Image
+        src="/Fancy V2.png"
+        width={400}
+        height={600}
+        />
+          
+         
+           
+    </div>
+ 
+        <div className={styles.rightycolumn3}>
+        <Image
+        src="/Hoodie Bird.png"
+        width={400}
+        height={600}
+        />
+                <Image
+        src="/Tuxedo Bird.png"
+        width={400}
+        height={600}
+        />
+        </div>
+</div>
+<div className={styles.about}> 
+<p className={styles.slidetext}> The pigeons were all created in Adobe Illustrator and referenced from various illustrations and other vectors. I attempted to give them a cartoony and playful look better associate with our young target audience. I chose to give them only a few colors each to keep their design simple and have their few colors stand out. </p>
+</div>
         </main>
     )
 }

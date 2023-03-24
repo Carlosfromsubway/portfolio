@@ -12,8 +12,8 @@ export default function TrackStacks() {
     ];
 
     const contain = {
-        width: "500px",
-        height: "300px",
+        width: "1000px",
+        height: "500px",
     }
     return (
         <main className={styles.main}>

@@ -558,7 +558,7 @@ border: 2px solid #31A8FF;
 }
 
 .about {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -569,17 +569,19 @@ border: 2px solid #31A8FF;
 .abouttext{
   font-size: 22px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 50%;
 }
 
 .rightycolumn1 {
   display: flex;
   flex-direction: column;
+  margin-left: -700px;
   
 }
 .leftycolumn1 {
   display: flex;
   flex-direction: column;
-  margin-left: -100px;
+  margin-left: 30px;
 }
 
 .videobox{
@@ -589,4 +591,17 @@ border: 2px solid #31A8FF;
   padding-top: -300px;
   display: flex;
   justify-content: center;
+}
+
+.leftycolumn3{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.rightycolumn3{
+  display: flex;
+  flex-direction: column;
+  margin-left: -1000px;
+  
 }
