@@ -26,7 +26,7 @@ height={500}
 
      
     <div className={styles.row}>
-      <div className={styles.leftycolumn1}>
+      <div className={styles.leftycolumnelevate}>
         <div className={styles.row}>
           
             </div>
@@ -34,7 +34,7 @@ height={500}
 Elevate is a Figma mock up of a music streaming app created by myself and another student from BCIT. In this project I developed the layout of the home page, purchase pages, log in page and the icons used on those pages. I also had my peers and classmates provide feedback through user testing. </p>
     </div>
  
-        <div className={styles.rightycolumn1}>
+        <div className={styles.rightycolumnelevate}>
         <Image
         src="/Group 14.png"
         width={600}
@@ -46,16 +46,16 @@ Elevate is a Figma mock up of a music streaming app created by myself and anothe
        
         </div>
         <div className={styles.row}>
-      <div className={styles.leftycolumn1}>
+      <div className={styles.leftycolumnelevate}>
         <div className={styles.row}>
           
         <Image
         src="/elevate3.png"
         width={600}
-        height={120}
+        height={500}
         />
  
-        <div className={styles.rightycolumn1}>
+        <div className={styles.rightycolumnelevate}>
         <Image
         src="/elevate4.png"
         width={300}

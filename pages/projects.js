@@ -140,9 +140,9 @@ export default function Projects() {
         <div className={styles.spacing}>
         <div className={styles.conty}> 
           <Image
-          src="/Discovering china.png"
+          src="/Cloud strife.png"
           width={550}
-          height={500}
+          height={600}
           
           />
          

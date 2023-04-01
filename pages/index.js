@@ -51,18 +51,30 @@ export default function Home() {
     </div>
     </div>
     </div>
+    <div className={styles.spacing}>
+        <div className={styles.conty2}> 
+          <Image
+          src="/thumbnail wordpress v2.png"
+          width={1000}
+          height={620}
+          
+          />
+         
+         <div className={styles.overlay2}>
 
-    <div className={styles.piccolumn}>
-    <Image
-    src="/thumbnail wordpress v2.png"
-    width={1000}
-    height={620}
-    
-    />
+<div className={styles.contenty2}>
+<Image
+src="/Drawing me.png"
+width={500}
+height={400}
 
+/>
 
+</div>
+</div>
+</div>
+          </div>
 
-    </div>
 
 
 </div>
